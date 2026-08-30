@@ -1,83 +1,62 @@
 # codealpha_task1
-Exploratory Data Analysis of Indian Railway train data using Python and Pandas. Includes data cleaning, statistical analysis, missing value handling, and outlier detection.
-# Indian Railways Train Delay Analysis
+# 🚆 Indian Railway Train Dataset – Exploratory Data Analysis
 
-## 📊 Project Overview
+## 📌 Project Overview
 
-This project performs comprehensive Exploratory Data Analysis (EDA) 
+This project focuses on performing Exploratory Data Analysis (EDA) on an
+Indian Railway Train Dataset. The objective is to understand the structure,
+quality, and characteristics of the dataset before performing further analysis
+and visualization.
 
-## 🎯 Business Problem
+The dataset contains detailed information about trains, their routes,
+stations, arrival and departure timings, sequence numbers, distances, and
+source and destination stations.
 
-Train delays significantly impact passenger experience and railway efficiency.
-This analysis aims to:
-- Understand delay patterns across different trains and routes
-- Identify data quality issues that may affect decision-making
-- Generate visual insights for operational improvements
-- Provide recommendations for reducing delays
+## 🎯 Objectives
 
-## 📁 Dataset
+The main objectives of this EDA are:
 
-## 📁 Dataset
+- Understand the structure and characteristics of the dataset.
+- Analyze different variables and their data types.
+- Identify missing values and duplicate records.
+- Explore train and station frequency patterns.
+- Analyze route distances and station sequences.
+- Detect invalid, inconsistent, or anomalous records.
+- Prepare the dataset for further data visualization.
 
-- **Source**: data.GOV.in Indian Railways Dataset the data is real
-- **Records**: 186124
-- **Columns**: 12
-- **Key Variables**: Train No, Train Name, SEQ, Station Code, Station Name, Arrival time, Departure Time, Distance, Source Station, Source Station Name, Destination Station, Destination Station Name
+## 📊 Dataset Summary
 
-## 🛠️ Tools & Technologies
-
-- **Programming Language**: Python
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn
-- **Environment**: Jupyter Notebook
-- **Platform**: GitHub
-
-## 📂 Project Structure
-## 📋 Analysis Process
-
-### Task 1: Exploratory Data Analysis
-
-1. **Data Loading**: Imported CSV dataset using Pandas
-2. **Data Profiling**: Examined structure, data types, and basic statistics
-3. **Data Quality Check**: Identified missing values and duplicate records
-4. **Data Cleaning**: Removed duplicates and handled inconsistencies
-5. **Statistical Analysis**: Calculated descriptive statistics for numerical variables
-6. **Outlier Detection**: Used IQR method to identify unusual values
+- **Total Records:** 186,124
+- **Total Columns:** 12
+- **Unique Trains:** ~11,115
+- **Unique Stations:** ~8,151
+- **Duplicate Records:** 0
+- **Columns with Missing Values:** 7
 
 ## 🔍 Key Findings
 
-### EDA Findings
+The exploratory analysis revealed that the dataset contains a large number
+of train-station records covering thousands of trains and railway stations.
 
-- Dataset contains [X] records with [X] columns
-- [X]% missing values identified in delay-related columns
-- [X] duplicate records removed during cleaning
-- Average train delay: [X] minutes
-- Maximum recorded delay: [X] minutes
+Several columns contain missing values, particularly arrival time, departure
+time, distance, source station, and destination station information.
 
+The analysis also identified a small number of malformed or inconsistent
+records, indicating potential data quality issues that should be addressed
+before conducting further analysis.
 
+Train route distances vary considerably, with some routes covering distances
+of more than 4,000 km. The dataset also shows that certain railway stations
+and trains occur much more frequently than others.
 
-### Delay Distribution
-![Delay Distribution](visuals/delay_distribution.png)
+## ⚠️ Data Quality Observations
 
-### Train Type Comparison
-![Train Type Delay](visuals/train_type_delay.png)
+- Missing values were found in 7 columns.
+- No completely duplicated rows were identified.
+- Some numerical fields are stored as text/object data types.
+- A few records contain invalid or misaligned values.
+- Delay analysis cannot be performed because the dataset does not contain
+  both scheduled and actual arrival/departure times.
 
-### Correlation Heatmap
-![Correlation](visuals/correlation_heatmap.png)
-
-## 💡 Recommendations
-
-### For Railway Operations
-
-1. Monitor high-delay trains for operational improvements
-2. Optimize routes with frequent delays
-3. Improve data collection processes
-4. Develop real-time delay monitoring dashboards
-
-### For Future Analysis
-
-1. Build predictive models for delay forecasting
-2. Analyze seasonal patterns and external factors
-3. Create interactive dashboards for stakeholders
-4. Correlate delays with passenger satisfaction
 
 
