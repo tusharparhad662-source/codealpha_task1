@@ -45,14 +45,6 @@ This analysis aims to:
 5. **Statistical Analysis**: Calculated descriptive statistics for numerical variables
 6. **Outlier Detection**: Used IQR method to identify unusual values
 
-### Task 3: Data Visualization
-
-1. **Distribution Analysis**: Created histograms for numerical variables
-2. **Outlier Visualization**: Generated boxplots to identify extreme values
-3. **Categorical Comparison**: Built bar charts for train types and stations
-4. **Correlation Analysis**: Developed heatmap for variable relationships
-5. **Insight Documentation**: Summarized key findings and recommendations
-
 ## 🔍 Key Findings
 
 ### EDA Findings
@@ -63,14 +55,7 @@ This analysis aims to:
 - Average train delay: [X] minutes
 - Maximum recorded delay: [X] minutes
 
-### Visualization Findings
 
-- [X]% of trains experience delays under 15 minutes
-- [Train Type] shows highest average delay
-- Strong correlation observed between [Variable A] and [Variable B]
-- [X] outliers detected requiring further investigation
-
-## 📈 Visualizations
 
 ### Delay Distribution
 ![Delay Distribution](visuals/delay_distribution.png)
