@@ -4,9 +4,7 @@ Exploratory Data Analysis of Indian Railway train data using Python and Pandas. 
 
 ## 📊 Project Overview
 
-This project performs comprehensive Exploratory Data Analysis (EDA) and Data
-Visualization on Indian Railway train data to identify delay patterns, assess
-data quality, and generate actionable insights for railway operations.
+This project performs comprehensive Exploratory Data Analysis (EDA) 
 
 ## 🎯 Business Problem
 
@@ -36,7 +34,7 @@ This analysis aims to:
 ## 📂 Project Structure
 ## 📋 Analysis Process
 
-### Task 2: Exploratory Data Analysis
+### Task 1: Exploratory Data Analysis
 
 1. **Data Loading**: Imported CSV dataset using Pandas
 2. **Data Profiling**: Examined structure, data types, and basic statistics
